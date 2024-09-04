@@ -1,5 +1,5 @@
 # Google Maps Clone
-![Project Screenshot](images\clone-map.png)
+![Project Screenshot](src\images\clone-map.png)
 
 ## Table of Contents
 1. [About](#about)
