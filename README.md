@@ -25,7 +25,6 @@ A simple Google Maps clone built using Mapbox, allows users to view and navigate
 -CSS3
 - JavaScript ES6
 - **Mapbox GL JS:** For rendering the map and handling geolocation.
-- **Mapbox Directions API:** For fetching and displaying cycling directions.
 
 ## Features
 - **Interactive Map:** Navigate through the map using zoom and drag controls.
