@@ -1,6 +1,4 @@
 # Google Maps Clone
-
-## Screenshot
 ![Project Screenshot](images\clone-map.png)
 
 ## Table of Contents
@@ -9,14 +7,15 @@
 3. [Tech](#tech)
 4. [Features](#features)
 5. [Getting Started](getting-started)
-6. [Status](#status)
-7. [Why](#why)
-8. [Contact](#contact)
-9. [License](#license)
+6. [Code Examples](code-examples)
+7. [Status](#status)
+8. [Why](#why)
+9. [Contact](#contact)
+10. [License](#license)
 
 
 ## About
-A simple Google Maps clone built using Mapbox, allows users to view and navigate a map, find their current location, and get directions. This project demonstrates how to integrate Mapbox's powerful mapping services in a web application.
+A simple Google Maps clone built using Mapbox, allows users to view and navigate a map, find their current location, and get directions. This project demonstrates how to integrate Mapbox's powerful mapping services into a web application.
 
 ## Video
 [Watch the demo](https://drive.google.com/file/d/1gG1ZQGPAXQlPg-q4xdXVXJS5PI5EsfXt/view?usp=sharing)
@@ -45,6 +44,22 @@ If you still want to clone the repository and explore the code:
 1. Clone the repository:  `git clone https://github.com/YourUsername/google-maps-clone.git`
 2. Navigate to the project directory: `cd google-maps-clone`
 3. Open the project: `Open index.html in your preferred web browser`
+
+## Code Examples
+```javascript
+const successLocation = (position) => {
+  console.log(position);
+  setupMap([position.coords.longitude, position.coords.latitude]);
+};
+
+const errorLocation = () => {
+  setupMap([]);
+};
+
+navigator.geolocation.getCurrentPosition(successLocation, errorLocation, {
+  enableHighAccuracy: true,
+});
+```
 
 ## Status
 Complete
