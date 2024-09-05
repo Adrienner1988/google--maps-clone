@@ -21,8 +21,8 @@ A simple Google Maps clone built using Mapbox, allows users to view and navigate
 [Watch the demo](https://drive.google.com/file/d/1gG1ZQGPAXQlPg-q4xdXVXJS5PI5EsfXt/view?usp=sharing)
 
 ## Tech 
--HTML5
--CSS3
+- HTML5
+- CSS3
 - JavaScript ES6
 - **Mapbox GL JS:** For rendering the map and handling geolocation.
 
