@@ -39,7 +39,7 @@ A simple Google Maps clone built using Mapbox, allows users to view and navigate
 ### Usage
 You can access the live version of the application here: [Live Demo](https://ad-maps.netlify.app/)
 
-# Accessing the Site
+### Accessing the Site
 The site is password-protected. If you need access for review purposes, don't hesitate to contact me directly, and I will provide the necessary credentials securely.
 
 ### Cloning the Repository (Optional)
