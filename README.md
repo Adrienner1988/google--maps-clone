@@ -44,8 +44,8 @@ The site is password-protected. If you need access for review purposes, don't he
 
 ### Cloning the Repository (Optional)
 If you still want to clone the repository and explore the code:
-1. Clone the repository:  `git clone https://github.com/Adrienner1988/google-maps-clone.git`
-2. Navigate to the project directory: `cd google-maps-clone`
+1. Clone the repository:  `git clone https://github.com/Adrienner1988/maps-clone.git`
+2. Navigate to the project directory: `cd maps-clone`
 3. Open the project: `Open index.html in your preferred web browser`
 
 ## Code Examples
