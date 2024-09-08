@@ -1,4 +1,4 @@
-# Google Maps Clone
+# Maps Clone
 ![Project Screenshot](src/images/clone-map.png)
 
 ## Table of Contents
